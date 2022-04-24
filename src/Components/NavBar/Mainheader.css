@@ -1,0 +1,17 @@
+.main-header {
+    position: fixed;
+    width: 100%;
+    right:0px;
+    left: 0px;
+    top: 0px;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    margin: 0px 15rem 0px 0px;
+    border-style: groove;
+  }
+.main-header img{
+  margin: 0px 20px;
+}  

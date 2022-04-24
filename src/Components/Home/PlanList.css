@@ -1,0 +1,62 @@
+label{
+    padding: 10px;
+    margin: 30px 10px;
+}
+.plans{
+    border-style: groove;
+    box-shadow: 2px;
+    margin: 10px;
+    height: 100%;
+    border-radius: 10px;
+    width: 18rem;
+}
+ul{
+    list-style: none;
+    padding-left: 20px ;
+    align-items: left;
+}
+li{
+    font-size: 15px;
+}
+.saver{
+    margin: 0px 0px 40px 0px;
+    border-radius: 0px 10px 10px 0px;
+
+}
+.heading{
+    font-weight: bold;
+}
+.suit{
+    float: center;
+    font-size: 10px;
+}
+.offer{
+    margin: 20px 0px;
+    font-size: 15px;
+    color:blue;
+    border-bottom: 1px solid darkgray;
+}
+.Oprice{
+   font-size: 20px;
+   padding-right: 0px;
+   margin-right: 0px;
+   margin-left: 0px;
+}
+.Save{
+    padding-left: 0px;
+    margin-right: 10px;
+    color: red;
+    font-size: 20px;
+}
+.price{
+    text-decoration:line-through;
+    margin-left: 30px;
+    
+}
+.button{
+    height: 40px;
+    width: 80%;
+    margin: 20px;
+    background-color: darkblue;
+    color: white;
+}
