@@ -18,6 +18,12 @@ ul{
 li{
     font-size: 15px;
 }
+.circular{
+    width:70px;
+    margin-left: 0px;
+    height:70px;
+    
+}
 .saver{
     margin: 0px 0px 40px 0px;
     border-radius: 0px 10px 10px 0px;
