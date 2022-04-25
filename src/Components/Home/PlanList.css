@@ -2,6 +2,14 @@ label{
     padding: 10px;
     margin: 30px 10px;
 }
+h1{
+    margin-bottom: 10px;
+}
+.offers{
+    width:100px;
+    margin: 0px;
+    position: absolute;
+}
 .plans{
     border-style: groove;
     box-shadow: 2px;
@@ -22,7 +30,47 @@ li{
     width:70px;
     margin-left: 0px;
     height:70px;
-    
+    position: relative;
+    left: 200px;
+    stroke-dasharray: 289.027px, 289.027px;
+    stroke-dashoffset: 98.269px;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}.CircularProgressbar {
+    width: 100%;
+    vertical-align: middle;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-path {
+    stroke: #3e98c7;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-trail {
+    stroke-linecap: round;
+  }
+  .CircularProgressbar .CircularProgressbar-text {
+    fill: #3e98c7;
+    font-size: 20px;
+    text-anchor: middle;
+  }
+  
+  .CircularProgressbar .CircularProgressbar-background {
+    fill: #d6d6d6;
+  }
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-background {
+ fill: #3e98c7;
+}  
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-text {
+fill: #fff;
+}
+  
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-path {
+    stroke: #fff;
+}  
+.CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
+    stroke: transparent;
 }
 .saver{
     margin: 0px 0px 40px 0px;

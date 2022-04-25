@@ -2,17 +2,16 @@ import './PlanList.css';
 import { AiOutlineCheck } from "react-icons/ai";
 import {CircularProgressbar} from 'react-circular-progressbar';
 import CounterTime from '../Timer/CounterTime';
-import 'react-circular-progressbar/dist/styles.css';
+//import 'react-circular-progressbar/dist/styles.css';
 
 const Planlist = props=>{
-    const plans = props.PlanData;
-    const percentage = 66;
+    const plans = props.PlanData; 
     return(
         <div key={Math.random()} style={{backgroundColor:plans.backgroundColor}} className='plans'>
             <h1>FLAT 30% OFF</h1>
-            <p>Offer ends in</p>
+            <p className='offers'>Offer ends in</p>
             <CounterTime timer={props.time}/>
-            <div className='circular'><CircularProgressbar value={percentage} text={`${percentage}%`}/></div>
+            <div className='circular'><CircularProgressbar value={props.per} text={`${props.per}%`}/></div><br/>
             <label style={{backgroundColor:plans.offerColor}} className='saver'>{plans.saver}</label><br/><br/>
             <label className='heading'>{plans.heading}</label>
             <ul className="cnt_list">{plans.content.map(c =>
