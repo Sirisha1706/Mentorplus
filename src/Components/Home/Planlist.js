@@ -1,6 +1,6 @@
 import './PlanList.css';
 import { AiOutlineCheck } from "react-icons/ai";
-import {CircularProgressbar} from 'react-circle-progress-bar';
+import {CircularProgressbar} from 'react-circular-progressbar';
 import CounterTime from '../Timer/CounterTime';
 
 const Planlist = props=>{
